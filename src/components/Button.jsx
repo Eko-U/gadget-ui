@@ -12,22 +12,17 @@ const Button = styled.button`
   transition: all 0.2s;
 
   @media only screen and (max-width: 62.5rem) {
-        font-size 1.8rem;
-        padding: .7rem 1.5rem;
-      }
+    font-size: 2rem;
+  }
 
-      @media only screen and (max-width: 37.5em) {
-     font-size: 1.3rem;
-        padding: .5rem 1rem;
-
-    }
+  @media only screen and (max-width: 37.5em) {
+    font-size: 1.8rem;
+  }
 
   &:hover {
     background-color: grey;
     color: #fff;
   }
-
-  
 `;
 
 export default Button;

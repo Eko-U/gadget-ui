@@ -43,8 +43,21 @@ const HeaderLeft = styled.div`
   }
 `;
 
+const SubHeading = styled.p`
+  font-size: 3rem;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: 37.5em) {
+    font-size: 2.7rem;
+  }
+`;
+
 const Paragraph = styled.p`
   font-size: 1.6rem;
+
+  @media only screen and (max-width: 37.5em) {
+    font-size: 1.9rem;
+  }
 `;
 
 function Header() {
@@ -53,7 +66,7 @@ function Header() {
       <HeaderLeft>
         <hgroup>
           <Heading as="h1">Buy gadgets</Heading>
-          <Heading as="h2">that last.</Heading>
+          <SubHeading as="h2">that last.</SubHeading>
         </hgroup>
         <Paragraph>
           our shop provide the perfect & best quality product

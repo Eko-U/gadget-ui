@@ -57,7 +57,7 @@ const ProductContent = styled.div`
 
 const ProductName = styled.p`
   @media only screen and (max-width: 23.625em) {
-    font-size: 1rem;
+    font-size: 1.35rem;
   }
 `;
 
@@ -66,7 +66,7 @@ const ProductPrice = styled.p`
   font-size: 1.5rem;
 
   @media only screen and (max-width: 23.625em) {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 `;
 
