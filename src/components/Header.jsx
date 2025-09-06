@@ -5,9 +5,8 @@ import Button from "./Button";
 
 const HeaderContainer = styled.header`
   display: flex;
-  padding: 5rem;
+  padding: 10rem;
 
-  height: 70vh;
   background-color: #e0e0e0;
 
   @media only screen and (max-width: 62.5rem) {
