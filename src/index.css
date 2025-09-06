@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media only screen and (max-width: 62.5em) {
+    font-size: 50%;
+  }
+}
+
+body {
+  box-sizing: inherit;
+  font-family: "JetBrains Mono", monospace;
+  /* font-family: "Martian Mono", monospace; */
+  /* font-family: "inter", sans-serif; */
+
+  font-size: 1.3rem;
+  line-height: 1.1;
+
+  color: #3f3f3f;
+
+  @media only screen and (max-width: 62.5em) {
+    font-size: 1.6rem;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+li,
+button {
+  cursor: pointer;
+}
